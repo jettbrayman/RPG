@@ -285,6 +285,7 @@ namespace RPG
                 Console.WriteLine();
             }
         }
+
         static void OpenChestAt(Player p, Dungeon d, int x, int y) //open chest
         {
             string cord = Dungeon.Cord(x, y);
